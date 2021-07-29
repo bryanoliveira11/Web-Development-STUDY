@@ -1,4 +1,7 @@
-Hi, I’m @bryanoliveira11
-Currently Learning About Web Development
-Python 🐍, HTML/CSS/JAVA-SCRIPT
-Email : @bryan.oliveira12345@gmail.com
+-Hi, I’m @bryanoliveira11
+
+-Learning About Web Development 
+
+-HTML/CSS/JAVA-SCRIPT
+
+-Email : @bryan.oliveira12345@gmail.com
