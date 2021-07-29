@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR ! </title>
+</head>
+
+<style>
+    #back {
+        background-color: lightpink;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 27px;
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.315)
+    }
+
+    #result {
+        font-size: 30px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255)
+    }
+
+    #input {
+       padding-top: 120px;
+       -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(223, 217, 217, 0.562)
+    
+    }
+    #logo {
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+        padding-right: 50px;
+    }
+   .button {
+       border-radius: 5px;
+       width: 100px;
+       height: 25px; 
+   }
+
+</style>
+
+
+
+<body id='back'>
+    <h1 id='logo'>CALCULATOR</h1>
+
+    <div id='input'>
+        NUM 1 ➔ <input type="number" id='num1'>
+        NUM 2 ➔ <input type="number" id='num2'>
+
+        <input type="button" value="SOMA" class='button' onclick="sum()">
+        <input type="button" value="SUBTRAÇÃO" class='button' onclick="subt()">
+        <input type="button" value="MULTIPLICAR" class='button' onclick="multi()">
+        <input type="button" value="DIVISÃO" class='button' onclick="div()">
+    </div>
+
+    <div id='result'></div>
+
+
+    <script>
+        function sum() {
+            var num1 = document.getElementById('num1')
+            var num2 = document.getElementById('num2')
+            var numb1 = Number(num1.value)
+            var numb2 = Number(num2.value)
+            var result = document.getElementById('result')
+            var soma = numb1 + numb2
+            result.innerHTML = `<p> <strong>O Resultado é ${soma} </p> </strong>`
+        }
+        function subt() {
+            var num1 = document.getElementById('num1')
+            var num2 = document.getElementById('num2')
+            var numb1 = Number(num1.value)
+            var numb2 = Number(num2.value)
+            var result = document.getElementById('result')
+            var subtracao = numb1 - numb2
+            result.innerHTML = `<p> <strong>O Resultado é ${subtracao} </p> </strong>`
+        }
+        function multi() {
+            var num1 = document.getElementById('num1')
+            var num2 = document.getElementById('num2')
+            var numb1 = Number(num1.value)
+            var numb2 = Number(num2.value)
+            var result = document.getElementById('result')
+            var multiplicar = numb1 * numb2
+            result.innerHTML = `<p> <strong>O Resultado é ${multiplicar} </p> </strong>`
+        }
+        function div() {
+            var num1 = document.getElementById('num1')
+            var num2 = document.getElementById('num2')
+            var numb1 = Number(num1.value)
+            var numb2 = Number(num2.value)
+            var result = document.getElementById('result')
+            var divisao = numb1 / numb2
+            result.innerHTML = `<p> <strong>O Resultado é ${divisao} </p> </strong>`
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
