@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(95, 2, 2, 0.664);
+}
+
+section {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: rgb(0, 0, 0);
+    box-shadow: 7px 7px 16px rgb(49, 48, 48);
+    height: 450px;
+    font-size: 25px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#picture {
+    width: 235px;
+    height: 235px;
+}
