@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alone DMG</title>
+</head>
+<link rel="stylesheet" href="alone.css">
+
+<body>
+    <header>
+        <h1>
+            Alone DMG Calculator
+        </h1>
+    </header>
+    <section>
+        <div>
+            <p> * This damage is based on 1155 skills</p>
+        </div>
+        <div>
+            <p>Your Extra HP <input type="number" id='hp'> </p>
+            <p>Your Extra Atk <input type="number" id='atk'> </p>
+            <p>Your C . Dmg : <input type="number" id='cdmg'></p>
+            <br>
+        </div>
+        <div>
+            Select Your Legendary Cosmo :
+            <p> <input type="radio" name="cosmo" id='vulkan' checked>
+                <label for='vulkan'>Vulkan</label>
+                <input type="radio" name="cosmo" id='felina'>
+                <label for="felina">Felina</label>
+                <input type="radio" name="cosmo" id='tree'>
+                <label for="tree">Tree</label>
+            </p>
+            <p> <input type="button" id='dmg' value='Calculate' onclick="calculate()"> </p>
+        </div>
+        <div id='result'>
+            <br>
+            <h2> Your Damage is : </h2>
+        </div>
+    </section>
+    <footer>
+        <p>
+            <br>
+            <center>
+                * Calculator based on a Mobile Game Called Saint Seiya Awakening. * <br> Character : Hades Alone.
+            </center>
+        </p>
+    </footer>
+
+
+    <script src="dmg.js"></script>
+</body>
+
+</html>
