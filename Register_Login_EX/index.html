@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <h5> <i id='icon' class="fas fa-user"></i> Username :</h5>
+            <p> <input type='text' name='input' id='user' placeholder="myname" minlength="3" required></p>
+            <h5> <i id='icon' class="fas fa-lock"></i> Password :</h5>
+            <p> <input type="password" name='input' id='pass' placeholder="pass123" minlength="8" required> </p> <br />
+            <input type='submit' name='subM' id='register' value="REGISTER" onclick="register()">
+            <input type='submit' name='subM' id='login' value="Login" onclick="login()">
+            <input type='button' name='subM' id='exit' value="User/Password" onclick="users()">
+            <input type='button' name='subM' id='reset' value="Clear" onclick="reset()">
+            <p id=error_text></p>
+            </p>
+        </div>
+    </section> <br />
+
+    <script src="https://kit.fontawesome.com/03bda43025.js" crossorigin="anonymous"></script>
+    <script src="log.js"></script>
+</body>
+
+</html>
