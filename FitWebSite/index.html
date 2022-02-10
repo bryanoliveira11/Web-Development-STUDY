@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Fit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+    <!-- navbar -->
+
+    <header class="header">
+
+        <div class="left-arm">
+            <img src='images/left-arm-removebg-preview.png' alt="left-arm">
+        </div>
+
+        <nav>
+
+            <ul class="navbar">
+                <li> <a href="#home"> home </a></li>
+                <li> <a href="#about"> about </a></li>
+                <li> <a href="#products"> products </a></li>
+                <li> <a href="#gym"> gym </a></li>
+                <li> <a href="#bmi"> bmi </a></li>
+                <i id="cartbtn" class="fas fa-shopping-cart"></i>
+            </ul>
+        </nav>
+
+
+        <div class="right-arm">
+            <img src='images/right-arm-removebg-preview.png' alt="right-arm">
+        </div>
+
+
+        <!-- cart -->
+
+        <div class="cart-container">
+            <h1 class='total-price'> your cart </h1>
+
+            <div class="buybtn">
+                <a id='buy-btn' class="btn"> buy now</a>
+            </div>
+
+        </div>
+
+        <div class="prodadd">
+            <h3 id='msg_display'>product added ! </h3>
+        </div>
+
+    </header>
+
+    <!-- home -->
+
+    <section class="home" id="home">
+        <div class="home-text">
+
+            <pre>  <h1> get 
+  fit 
+now</h1> </pre>
+            <a href="#products" class="btn"> products </a>
+
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> about <span> uS </span> </h1>
+
+        <div class="row">
+
+            <div class="about-image">
+                <img src='images/about-img.jpg' alt="about img">
+            </div>
+
+            <div class="content">
+                <h3> web fit </h3>
+                <p> web fit is a company dedicated to the manufacture and supply of supplementary products. Anxious to overcome obstacles and limits, Supplements to growth was created with the objective of being the best in the manufacture and sale of food
+                    supplements. From the choice of raw material to the offer of products, quality is always superior. The desire to continue improving is what drives us to conquer its space in the market, always being proud of its team and strengthening
+                    itself by its credibility and seriousness with the business and its customers. </p>
+                <a href="https://github.com/bryanoliveira11" target="_blank" class="btn"> learn more </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- products -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span> products </span> </h1>
+
+        <div class="container">
+
+            <div class="itens">
+                <img class="item-image" src='images/pr-whey.png' alt="whey protein">
+                <h3 class="name"> whey protein </h3>
+                <div class="price"> $29.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn-cart"> add to cart</a>
+            </div>
+
+            <div class="itens">
+                <img class="item-image" src='images/pr-creatine.png' alt="whey protein">
+                <h3 class="name"> creatine </h3>
+                <div class="price"> $19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn-cart"> add to cart</a>
+            </div>
+
+            <div class="itens">
+                <img class="item-image" src='images/pr-preworkout.png' alt="whey protein">
+                <h3 class="name"> pre workout</h3>
+                <div class="price"> $19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn-cart"> add to cart</a>
+            </div>
+
+
+            <div class="itens">
+                <img class="item-image" src='images/pr-glutamine.png' alt="whey protein">
+                <h3 class="name"> glutamine </h3>
+                <div class="price"> $14.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn-cart"> add to cart</a>
+            </div>
+
+            <div class="itens">
+                <img class="item-image" src='images/pr-hipercaloric.png' alt="whey protein">
+                <h3 class="name"> hipercaloric </h3>
+                <div class="price"> $24.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn-cart"> add to cart</a>
+            </div>
+
+            <div class="itens">
+                <img class="item-image" src='images/pr-bcaa.png' alt="whey protein">
+                <h3 class="name"> bcaa </h3>
+                <div class="price"> $9.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn-cart"> add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- trainers -->
+
+
+    <section class="gym" id="gym">
+
+        <div class="heading">
+            <h1> <span> our </span> trainings </h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="trainings">
+                    <img src="images/training1.jpg">
+                    <h1> weight lifting </h1>
+                    <a href='#home' class="btn"> start today</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="trainings">
+                    <img src="images/training2.jpg">
+                    <h1> aerobic training </h1>
+                    <a href='#home' class="btn"> start today</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="trainings">
+                    <img src="images/training3.jpg">
+                    <h1> personal training </h1>
+                    <a href='#home' class="btn"> start today</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- imc calculator -->
+
+    <section class="bmi" id="bmi">
+
+        <div class="heading">
+            <h1> bmi <span> measurement </span> </h1>
+        </div>
+
+        <div class="window">
+
+            <div class="content">
+                <h3> what is the bmi measurement ?</h3>
+                <p> Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. </p>
+                <a class="btn" id='bmiBtn'> start</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="measurement">
+
+        <div class="Bmicontent">
+            <i id='bmiClose' class="fas fa-window-close"></i>
+
+            <h3> your height <span>(cm)</span> </h3>
+            <input type="text" onfocus="this.value=''" id="height" autocomplete="off" placeholder="165cm">
+
+            <h3> your weight <span>(kg)</span> </h3>
+            <input type="text" onfocus="this.value=''" id="weight" autocomplete="off" placeholder="60kg">
+
+            <a class="btn" id='bmiCalc'> calculate </a>
+
+            <div id="result"></div>
+
+        </div>
+
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/03bda43025.js" crossorigin="anonymous"></script>
+    <script src="java-script.js"></script>
+</body>
+
+</html>
